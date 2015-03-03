@@ -7,5 +7,5 @@
   command:  mkdir logstash chdir=/etc/pki creates=/etc/pki/logstash
 
 - name: Copy keys  
-  command:  cp /vagrant/sharedKeys/lumberjack.crt  /etc/pki/logstash  creates=/etc/pki/logstash/lumberjack.crt 
+  command:  cp /vagrant2/sharedKeys/lumberjack.crt  /etc/pki/logstash  creates=/etc/pki/logstash/lumberjack.crt 
 
